@@ -1,6 +1,6 @@
-# blockgpt-firmwares
+# BlockGPT Firmwares
 
-This repository stores firmware payloads used by BlockGPT Link for Arduino and MicroPython devices.
+This repository stores firmware payloads used by BlockGPT Link for supported hardware targets.
 
 ## Current payload
 
@@ -22,3 +22,7 @@ Recommended asset name:
 ```
 
 The script writes the packaged firmware archive into `dist/`.
+
+## Product role
+
+This repository keeps firmware delivery separate from the main desktop package so BlockGPT can evolve hardware support without forcing a full application reinstall.
